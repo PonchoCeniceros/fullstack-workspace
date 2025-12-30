@@ -145,6 +145,7 @@ Este workspace está optimizado para:
 ### 🎯 LSP y Debugging
 | Comando | Descripción |
 |---------|-------------|
+| `<leader>xx` | Mostrar warnings y errores señalados por el LSP |
 | `<leader>ls` | Mostrar símbolos del buffer |
 | `<leader>lR` | Renombrar en todo el proyecto |
 | `<leader>la` | Code actions |
