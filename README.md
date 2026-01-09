@@ -100,6 +100,10 @@ Este workspace está optimizado para:
 ### 📝 Edición de Código
 | Comando | Descripción |
 |---------|-------------|
+| `i` | Insertar después del cursor *(invertido)* |
+| `a` | Insertar antes del cursor *(invertido)* |
+| `I` | Insertar al final de línea *(invertido)* |
+| `A` | Insertar al inicio de línea *(invertido)* |
 | `gcc` | Comentar/descomentar línea actual |
 | `gc` + movimiento | Comentar/descomentar múltiples líneas |
 | `yi"` | Copiar texto entre comillas |
@@ -126,7 +130,12 @@ Este workspace está optimizado para:
 | `<Tab>` / `<S-Tab>` | Navegar entre buffers |
 | `<leader>bd` | Cerrar buffer |
 | `<leader>bD` | Cerrar todos los buffers excepto el actual |
-| `<C-w>h/j/k/l` | Navegar entre ventanas |
+| `<leader>w<Left>` | Navegar a ventana izquierda |
+| `<leader>w<Right>` | Navegar a ventana derecha |
+| `<leader>w<Up>` | Navegar a ventana superior |
+| `<leader>w<Down>` | Navegar a ventana inferior |
+| `<leader>s<Left>` | Buffer anterior |
+| `<leader>s<Right>` | Buffer siguiente |
 | `<C-w>s` | Dividir ventana horizontalmente |
 | `<C-w>v` | Dividir ventana verticalmente |
 | `<C-w>c` | Cerrar ventana actual |
@@ -154,6 +163,31 @@ Este workspace está optimizado para:
 | `<leader>li` | Mostrar información |
 | `F10` | Step over (debug) |
 | `F5` | Start/Continue debug |
+
+## ⚡ Keymaps Personalizados
+
+Esta configuración incluye keymaps personalizados para mejorar la productividad:
+
+### 🔄 Navegación de Ventanas y Buffers
+Se han reemplazado los keymaps tradicionales `<C-h/j/k/l>` y `<S-h/l>` por versiones más intuitivas:
+
+- **Ventanas**: `<leader>w` + **flecha** → Navegación entre ventanas
+- **Buffers**: `<leader>s` + **flecha** → Navegación entre buffers
+
+**Ventajas:**
+- Más intuitivo: flechas indican dirección
+- Sin conflictos con keymaps de LazyVim
+- Mnemónico: **w** = window, **s** = switch buffer
+
+### ✏️ Inserción de Texto Invertida
+Para mayor comodidad, se han invertido los comandos de inserción:
+
+- `i` → Insertar **después** del cursor (como el antiguo `a`)
+- `a` → Insertar **antes** del cursor (como el antiguo `i`)  
+- `I` → Insertar al **final** de línea (como el antiguo `A`)
+- `A` → Insertar al **inicio** de línea (como el antiguo `I`)
+
+**Razonamiento:** Más natural pensar en "i" como "in" (dentro) y "a" como "append".
 
 ## 🌟 Mejoras de Documentación Flotante
 
