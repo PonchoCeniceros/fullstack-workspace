@@ -130,12 +130,12 @@ Este workspace está optimizado para:
 | `<Tab>` / `<S-Tab>` | Navegar entre buffers |
 | `<leader>bd` | Cerrar buffer |
 | `<leader>bD` | Cerrar todos los buffers excepto el actual |
-| `<leader>w<Left>` | Navegar a ventana izquierda |
-| `<leader>w<Right>` | Navegar a ventana derecha |
-| `<leader>w<Up>` | Navegar a ventana superior |
-| `<leader>w<Down>` | Navegar a ventana inferior |
-| `<leader>s<Left>` | Buffer anterior |
-| `<leader>s<Right>` | Buffer siguiente |
+| `<S-Left><S-Left>` | Navegar a ventana izquierda |
+| `<S-Right><S-Right>` | Navegar a ventana derecha |
+| `<S-Up><S-Up>` | Navegar a ventana superior |
+| `<S-Down><S-Down>` | Navegar a ventana inferior |
+| `<S-Left>` | Buffer anterior |
+| `<S-Right>` | Buffer siguiente |
 | `<C-w>s` | Dividir ventana horizontalmente |
 | `<C-w>v` | Dividir ventana verticalmente |
 | `<C-w>c` | Cerrar ventana actual |
@@ -172,8 +172,8 @@ Esta configuración incluye keymaps personalizados para mejorar la productividad
 ### 🔄 Navegación de Ventanas y Buffers
 Se han reemplazado los keymaps tradicionales `<C-h/j/k/l>` y `<S-h/l>` por versiones más intuitivas:
 
-- **Ventanas**: `<leader>w` + **flecha** → Navegación entre ventanas
-- **Buffers**: `<leader>s` + **flecha** → Navegación entre buffers
+- **Ventanas**: `Shift` + **doble flecha** → Navegación entre ventanas
+- **Buffers**: `Shift` + **flecha** → Navegación entre buffers
 
 **Ventajas:**
 - Más intuitivo: flechas indican dirección
