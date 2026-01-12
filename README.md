@@ -178,17 +178,6 @@ Se han reemplazado los keymaps tradicionales `<C-h/j/k/l>` y `<S-h/l>` por versi
 **Ventajas:**
 - Más intuitivo: flechas indican dirección
 - Sin conflictos con keymaps de LazyVim
-- Mnemónico: **w** = window, **s** = switch buffer
-
-### ✏️ Inserción de Texto Invertida
-Para mayor comodidad, se han invertido los comandos de inserción:
-
-- `i` → Insertar **después** del cursor (como el antiguo `a`)
-- `a` → Insertar **antes** del cursor (como el antiguo `i`)  
-- `I` → Insertar al **final** de línea (como el antiguo `A`)
-- `A` → Insertar al **inicio** de línea (como el antiguo `I`)
-
-**Razonamiento:** Más natural pensar en "i" como "in" (dentro) y "a" como "append".
 
 ## 🌟 Mejoras de Documentación Flotante
 
