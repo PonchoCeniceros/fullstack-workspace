@@ -6,6 +6,10 @@
 [![React](https://img.shields.io/badge/React-61dafb)](https://reactjs.org/)
 [![Python](https://img.shields.io/badge/Python-3776ab)](https://www.python.org/)
 
+<p align="center">
+  <img src="https://github.com/PonchoCeniceros/ponchoceniceros_x_lazyvim/blob/main/utils/imgs/portrait.png">
+</p>
+
 🔧 **Entorno de desarrollo completo** con 💤 [LazyVim](https://github.com/LazyVim/LazyVim) optimizado para **fullstack development** con TypeScript, React y Python.
 
 > **Fullstack Workspace**: Configuración profesional de Neovim para productividad máxima en desarrollo web y Machine Learning.
