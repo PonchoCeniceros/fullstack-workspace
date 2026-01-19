@@ -1,16 +1,7 @@
 # Fullstack Workspace
 
-[![Neovim](https://img.shields.io/badge/Neovim-0.10+-blueviolet)](https://neovim.io)
-[![LazyVim](https://img.shields.io/badge/LazyVim-Config-ff69b4)](https://github.com/LazyVim/LazyVim)
-[![TypeScript](https://img.shields.io/badge/TypeScript--blue)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-61dafb)](https://reactjs.org/)
-[![Python](https://img.shields.io/badge/Python-3776ab)](https://www.python.org/)
-
 ![Neovim Badge](https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=fff&style=for-the-badge)
-
-<p align="center">
-  <img src="https://github.com/PonchoCeniceros/ponchoceniceros_x_lazyvim/blob/main/utils/imgs/portrait.png">
-</p>
+![LazyVim Badge](https://img.shields.io/badge/LazyVim-2E7DE9?logo=lazyvim&logoColor=fff&style=for-the-badge)
 
 🔧 **Entorno de desarrollo completo** con 💤 [LazyVim](https://github.com/LazyVim/LazyVim) optimizado para **fullstack development** con TypeScript, React y Python.
 
