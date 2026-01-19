@@ -3,7 +3,7 @@
 ![Neovim Badge](https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=fff&style=for-the-badge)![LazyVim Badge](https://img.shields.io/badge/LazyVim-2E7DE9?logo=lazyvim&logoColor=fff&style=for-the-badge)![TypeScript Badge](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff&style=for-the-badge)![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge)![React Badge](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=for-the-badge)
 
 <p align="center">
-  <img src="https://github.com/PonchoCeniceros/ponchoceniceros_x_lazyvim/blob/main/utils/imgs/portrait.png">
+  <img src="https://github.com/PonchoCeniceros/ponchoceniceros_x_lazyvim/blob/main/utils/imgs/main.png">
 </p>
 
 🔧 **Entorno de desarrollo completo** con 💤 [LazyVim](https://github.com/LazyVim/LazyVim) optimizado para **fullstack development** con TypeScript, React y Python.
