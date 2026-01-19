@@ -6,6 +6,8 @@
 [![React](https://img.shields.io/badge/React-61dafb)](https://reactjs.org/)
 [![Python](https://img.shields.io/badge/Python-3776ab)](https://www.python.org/)
 
+![Neovim Badge](https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=fff&style=for-the-badge)
+
 <p align="center">
   <img src="https://github.com/PonchoCeniceros/ponchoceniceros_x_lazyvim/blob/main/utils/imgs/portrait.png">
 </p>
