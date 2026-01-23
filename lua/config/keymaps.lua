@@ -54,6 +54,25 @@ vim.keymap.set("n", "<leader>nn", function()
   end)
 end, { desc = "New Note with Name" })
 
+-- Leader + ng (Nota General)
+vim.keymap.set("n", "<leader>ng", function()
+  Snacks.scratch({
+    name = "general",
+    title = " 📒 Nota General ",
+  })
+end, { desc = "Nota General" })
+
+-- Leader + np (Nota de Proyecto)
+vim.keymap.set("n", "<leader>np", function()
+  -- Detecta el nombre de la carpeta actual
+  local project_name = vim.fn.fnamemodify(vim.fn.getcwd(), ":t")
+
+  Snacks.scratch({
+    name = "project_" .. project_name,
+    title = " 🚀 Proyecto: " .. project_name,
+  })
+end, { desc = "Nota de Proyecto" })
+
 --
 -- Invertir efecto de 'i' y 'a'
 --
